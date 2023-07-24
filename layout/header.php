@@ -28,10 +28,8 @@ require 'config/function.libs.php';
               <a href="bpd.php">BPD</a>
               <a href="lpm.php">LPM</a>
               <a href="pkk.php">PKK</a>
-              <a href="karang.php">Karang Taruna</a>
               <a href="posyandu.php">Posyandu</a>
               <a href="tani.php">Kelompok Tani</a>
-              <a href="tokoh.php">Tokoh Agama</a>
             </div>
           </li>
           <li class="dropdown">
@@ -54,9 +52,9 @@ require 'config/function.libs.php';
           <li class="dropdown">
             <a href="#" class="dropbtn"><i class="fas fa-envelope"></i> Profil</a>
             <div class="dropdown-content">
-              <a href="struktur.php">Struktur</a>
-              <a href="#">Staff</a>
-              <a href="#">Data RT/RW</a>
+              <a href="struktur.php">Struktur Desa</a>
+              <a href="#">Sejarah</a>
+              <a href="#">Visi & Misi</a>
             </div>
           </li>
           <li><a href="#"><i class="fas fa-cogs"></i> Kontak</a></li>
