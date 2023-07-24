@@ -54,9 +54,8 @@ require 'config/function.libs.php';
           <li class="dropdown">
             <a href="#" class="dropbtn"><i class="fas fa-envelope"></i> Profil</a>
             <div class="dropdown-content">
-              <a href="struktur.php">Struktur</a>
-              <a href="#">Staff</a>
-              <a href="#">Data RT/RW</a>
+              <a href="struktur.php">Profil Desa</a>
+              <a href="perangkat.php">Perangkat Desa</a>
             </div>
           </li>
           <li><a href="#"><i class="fas fa-cogs"></i> Kontak</a></li>
