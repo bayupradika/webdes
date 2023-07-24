@@ -28,27 +28,25 @@ require 'config/function.libs.php';
               <a href="bpd.php">BPD</a>
               <a href="lpm.php">LPM</a>
               <a href="pkk.php">PKK</a>
-              <a href="karang.php">Karang Taruna</a>
               <a href="posyandu.php">Posyandu</a>
               <a href="tani.php">Kelompok Tani</a>
-              <a href="tokoh.php">Tokoh Agama</a>
             </div>
           </li>
           <li class="dropdown">
             <a href="#" class="dropbtn"><i class="fas fa-cogs"></i> Penduduk</a>
             <div class="dropdown-content">
-              <a href="#">Data Penduduk</a>
-              <a href="#">Grafik Penduduk</a>
-              <a href="#">Data PPS</a>
-              <a href="#">Data TPS</a>
-              <a href="#">Data DPT</a>
+              <a href="Penduduk.php">Data Penduduk</a>
+              <a href="grafik.php">Grafik Penduduk</a>
+              <a href="pps.php">Data PPS</a>
+              <a href="tps.php">Data TPS</a>
+              <a href="dpt.php">Data DPT</a>
             </div>
           </li>
           <li class="dropdown">
-            <a href="#" class="dropbtn"><i class="fas fa-images"></i> Gallery</a>
+            <a href="#" class="dropbtn"><i class="fas fa-images"></i> Galeri</a>
             <div class="dropdown-content">
               <a href="galeri.php">foto</a>
-              <a href="#">Video</a>
+              <a href="video.php">Video</a>
             </div>
           </li>
           <li class="dropdown">
@@ -56,6 +54,7 @@ require 'config/function.libs.php';
             <div class="dropdown-content">
               <a href="struktur.php">Profil Desa</a>
               <a href="perangkat.php">Perangkat Desa</a>
+              <a href="visimisi.php">Visi & Misi</a>
             </div>
           </li>
           <li><a href="#"><i class="fas fa-cogs"></i> Kontak</a></li>

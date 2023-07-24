@@ -9,7 +9,7 @@ $data   = $query->fetch();
   <div class="inner">
     <h1>Desa Salo Timur</h1>
     <h3>Kecamatan Salo, Kabupaten Kampar</h3>
-    <h3> <i class="fa fa-phone"></i> (022)xxxxxxxx &nbsp;&nbsp;-&nbsp;&nbsp; <i class="fa fa-envelope"></i> desasalotimur@gmail.com </h3>
+    <h3> <i class="fa fa-phone"></i> +62 852-8993-2694 (Muhammad Fajri) &nbsp;&nbsp;-&nbsp;&nbsp; <i class="fa fa-envelope"></i> desasalotimur@gmail.com </h3>
   </div>
 </div>
 <div class="container">
