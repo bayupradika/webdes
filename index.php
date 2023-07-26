@@ -16,7 +16,7 @@ $data   = $query->fetch();
   <div class="content">
     <div class="berita">
       <div class="judul_section">
-        <h1>DASHBOARD</h1>
+        <h1>Postingan</h1>
         <hr>
       </div>
       </div>
