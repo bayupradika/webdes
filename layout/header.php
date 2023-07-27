@@ -35,7 +35,7 @@ require 'config/function.libs.php';
           <li class="dropdown">
             <a href="#" class="dropbtn"><i class="fas fa-cogs"></i> Penduduk</a>
             <div class="dropdown-content">
-              <a href="Penduduk.php">Data Penduduk</a>
+              <a href="penduduk.php">Data Penduduk</a>
               <a href="grafik.php">Grafik Penduduk</a>
               <a href="pps.php">Data PPS</a>
               <a href="tps.php">Data TPS</a>
