@@ -15,7 +15,7 @@ require 'layout/header.php';
       <div class="judul_section">
         <h1>BPD</h1>
         <hr>
-        <h2>NAMA-NAMA ANGGOTA BADAN PERMUSYAWARATAN DESA (BPD) PRIODE 2020-2025</h2><br>
+        <h2>NAMA-NAMA ANGGOTA BADAN PERMUSYAWARATAN DESA (BPD) PERIODE 2020-2025</h2><br>
     <table class="table">
     <thead>
         <tr>

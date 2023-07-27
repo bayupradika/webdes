@@ -15,7 +15,7 @@ include 'layout/header.php';
       <div class="judul_section">
         <h1>LPM</h1>
         <hr>
-        <h2>NAMA-NAMA ANGGOTA LEMBAGA PEMBERDAYAAN MASYARAKAT (LPM) PRIODE 2020-2025</h2><br>
+        <h2>NAMA-NAMA ANGGOTA LEMBAGA PEMBERDAYAAN MASYARAKAT (LPM) PERIODE 2020-2025</h2><br>
         <table class="table">
             <thead>
                 <tr>
@@ -96,3 +96,25 @@ include 'layout/header.php';
   </html>
 
     <?php require 'layout/footer.php'; ?>
+    <style>
+    /* CSS untuk menambahkan border pada tabel */
+    .table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    .table th, .table td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: left;
+    }
+
+    /* Optional: Tambahkan styling tambahan jika diperlukan */
+    .table th {
+      background-color: #f2f2f2;
+    }
+
+    .table tbody tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
