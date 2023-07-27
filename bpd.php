@@ -85,6 +85,7 @@ require 'layout/header.php';
       </div>
       </div>
     </div>
+</div>
    
 </body>
 </html>

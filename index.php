@@ -16,10 +16,19 @@ $data   = $query->fetch();
   <div class="content">
     <div class="berita">
       <div class="judul_section">
-        <h1>DASHBOARD</h1>
+        <h1>Postingan</h1>
         <hr>
+        <div class="row">
+        <div class="col-sm-3" style="width: 75%;">
+
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt ab iste dolore repellat at sapiente quam voluptates obcaecati distinctio ad modi nam natus, suscipit fugiat ex ut aspernatur voluptatem! Ut.
+
+        </div>
+        <div class="col-3" style="width: 25%;">
+        </div>
+        </div>
       </div>
       </div>
     </div>
-
+</div>
     <?php require 'layout/footer.php'; ?>
