@@ -23,7 +23,7 @@ include 'layout/header.php';
             </thead>
             <tbody>
                 <tr>
-                    <td style="text-align:center;"> Penghayatan dan Pengamalan Pancasila <br>
+                    <td style="text-align:center; line-height:1.6rem"> Penghayatan dan Pengamalan Pancasila <br>
                      Gotong Royong <br>
                      Pangan <br>
                      Sandang <br>
@@ -115,10 +115,10 @@ include 'layout/header.php';
                 </tr>
                 <tr>
                     <td><br>ANGGOTA<br><br></td>
-                    <td style="line-height: 1,6rem;">1. Erlina Wati <br>2. Dewi Sudarianti <br>3. Roslaini <br>4. Netti Danggoran</td>
-                    <td style="line-height: 1,6rem;">1. Erna Wati <br>2. Susi Nelfianti <br>3. Yanti Irmanila <br>4. Dameria</td>
-                    <td style="line-height: 1,6rem;">1. Siti Rokayah <br>2. Rozita <br>3. Zalbiah <br>4. Elias Tuti</td>
-                    <td style="line-height: 1,6rem;">1. Dosi Arisa <br>2. Reni Armanila <br>3. Suzilawati <br>4. Dewi Sri Yuliati</td>
+                    <td style="line-height: 1.6rem;">1. Erlina Wati <br>2. Dewi Sudarianti <br>3. Roslaini <br>4. Netti Danggoran</td>
+                    <td style="line-height: 1.6rem;">1. Erna Wati <br>2. Susi Nelfianti <br>3. Yanti Irmanila <br>4. Dameria</td>
+                    <td style="line-height: 1.6rem;">1. Siti Rokayah <br>2. Rozita <br>3. Zalbiah <br>4. Elias Tuti</td>
+                    <td style="line-height: 1.6rem;">1. Dosi Arisa <br>2. Reni Armanila <br>3. Suzilawati <br>4. Dewi Sri Yuliati</td>
                 </tr>
             </tbody>
         </table>

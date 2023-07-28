@@ -2,7 +2,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer">
+    <div class="footer" style="bottom: 0;">
       <div class="rowflex">
         <div class="peta">
             <h1>Peta Desa Salo Timur</h1>
