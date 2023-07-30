@@ -135,7 +135,7 @@ require 'config/function.libs.php';
       /* Responsive styles */
       @media screen and (max-width: 768px) {
         .logo img {
-          height: 40px; /* Adjust the height as needed */
+          height: 40px;
         }
         
         .navbar ul li {
@@ -150,7 +150,7 @@ require 'config/function.libs.php';
       
       @media screen and (max-width: 480px) {
         .logo img {
-          height: 30px; /* Adjust the height as needed */
+          height: 30px; 
         }
       }
     </style>

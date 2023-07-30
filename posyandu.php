@@ -14,10 +14,14 @@ include 'layout/header.php';
     <div class="berita">
       <div class="judul_section">
         <h1>POSYANDU</h1>
-        <hr>
+        <hr><br>
+        <table border="1px" >
+          <p style="border-color:black; background-color:blue; height:300px">DATA SEDANG DALAM PERBAIKAN</p>
+        </table>
       </div>
       </div>
     </div>
+  </div>
     
   </body>
   </html>

@@ -1,6 +1,10 @@
+html{
+  height: 100%;
+}
 body{
   font-family: 'OpenSans',arial;
   margin: 0;
+  height: 100%;
 }
 a{
   text-decoration: none;
@@ -372,81 +376,3 @@ p.statusMsg{font-size:18px;}
 p.succdiv{color: #008000;}
 p.errordiv{color:#E80000;}
 
-/* Footer */
-.footer{
-  display: flex;
-  margin-top: 50px;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: #092140;
-  flex-direction: column;
-}
-.footer h1{
-  margin: 0;
-  color: white;
-}
-.rowflex{
-  padding: 10px 0;
-  width: 100%;
-}
-.peta{
-  float: left;
-  box-sizing: border-box;
-  border-right: 2px solid #024959;
-  text-align: center;
-  height: 208px;
-  width: 50%;
-}
-.peta iframe{
-  margin: 10px;
-}
-.kutipan{
-  padding: 0 20px;
-  color: white;
-  float: left;
-  box-sizing: border-box;
-  border-left: 2px solid #024959;
-  text-align: center;
-  height: 208px;
-  width: 50%;
-}
-.kutipan img{
-  height: 100px;
-  margin-top: 10px;
-}
-.kutipan p{
-  font-size: 1.5vw;
-  margin: 0;
-}
-.copyright-section{
-  text-align: center;
-  color: white;
-  background-color: #024959;
-  height: 50px;
-  flex: 1;
-}
-@media (max-width:720px) {
-  .nav{
-    width: 100vw ;
-  }
-  .footer{
-    display: flex;
-    width: 100vw;
-    margin-top: 50px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #092140;
-    flex-direction: column;
-  }
-  .rowflex{
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
-    margin-top: 50px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-}
