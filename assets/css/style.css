@@ -426,3 +426,27 @@ p.errordiv{color:#E80000;}
   height: 50px;
   flex: 1;
 }
+@media (max-width:720px) {
+  .nav{
+    width: 100vw ;
+  }
+  .footer{
+    display: flex;
+    width: 100vw;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #092140;
+    flex-direction: column;
+  }
+  .rowflex{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-top: 50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}

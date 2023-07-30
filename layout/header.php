@@ -57,9 +57,9 @@ require 'config/function.libs.php';
               <a href="visimisi.php">Visi & Misi</a>
             </div>
           </li>
-          <li><a href="#"><i class="fas fa-cogs"></i> Kontak</a></li>
+          <li><a href="#"><i class="fas fa-cogs"></i>Kontak</a></li>
           <li class="dropdown">
-            <a href="#" class="dropbtn"><i class="fas fa-images"></i> Lainnya</a>
+            <a href="#" class="dropbtn"><i class="fas fa-images"></i>Lainnya</a>
             <div class="dropdown-content">
               <a href="#">File Download</a>
               <a href="#">Agenda</a>

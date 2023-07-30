@@ -2,7 +2,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="footer" style="bottom: 0;">
+    <div class="footer">
       <div class="rowflex">
         <div class="peta">
             <h1>Peta Desa Salo Timur</h1>
@@ -13,7 +13,6 @@
           <img src="assets/images/Soekarno1.jpg" alt="Foto Ir. Soekarno">
           <p>Bung Karno pernah berkata <b>"Bangsa yang besar adalah bangsa yang menghargai jasa-jasa para pahlawannya"</b></p> 
         </div>
-        <div class="clear"></div>
       </div>
       <div class="copyright-section">
         <p>Copyright © 2023, <a href="instagram.com/muhammadravil2" style="color:#92cf48;"><b>Muhammad Ravil</b></a> </p>
