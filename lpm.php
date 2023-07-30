@@ -16,6 +16,7 @@ include 'layout/header.php';
         <h1>LPM</h1>
         <hr>
         <h2>NAMA-NAMA ANGGOTA LEMBAGA PEMBERDAYAAN MASYARAKAT (LPM) PERIODE 2020-2025</h2><br>
+        <div class="table-responsive">
         <table class="table">
             <thead>
                 <tr>
@@ -91,7 +92,10 @@ include 'layout/header.php';
         </div>
     </div>
     </div>
+</div>
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
   </html>
 

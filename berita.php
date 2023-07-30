@@ -1,8 +1,5 @@
 <?php
 require 'layout/header.php';
-
-$query  = $conn->query("SELECT kategori.* ,artikel.* FROM artikel LEFT JOIN kategori on artikel.id_kategori = kategori.id_kategori ORDER BY artikel.id_artikel DESC");
-$data   = $query->fetch();
 ?>
 
 <div class="container">

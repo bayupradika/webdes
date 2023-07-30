@@ -1,6 +1,6 @@
 <?php
-require 'config/db_connect.php';
-require 'config/function.libs.php';
+
+
 ?>
 
     
