@@ -92,7 +92,6 @@ require 'layout/header.php';
 
     <?php require 'layout/footer.php'; ?>
     <style>
-    /* CSS untuk menambahkan border pada tabel */
     .table {
       border-collapse: collapse;
       width: 100%;
