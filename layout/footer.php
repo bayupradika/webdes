@@ -12,29 +12,34 @@
       <p>&copy; 2023, <a href="instagram.com/muhammadravil2" style="color:#92cf48;"><b>KKN UIN SUSKA RIAU</b></a> X <a href="https://bayupradika09.site/" style="color:#92cf48;"><b>KKN INTEGRASI UR 2023</b></a></p>
     </div>
   </div>
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
   <script>
-    const hamburger = document.getElementsByClassName("hamburger")[0]
-    const menu = document.getElementsByClassName("navbar")[0]
+    feather.replace()
+</script>
+<script>
+// toggle class active
+const navbarNav = document.querySelector('.navbar-nav');
+// ketika hamburger menu di klik
+document.querySelector('#hamburger-menu').onclick = () => {
+    navbarNav.classList.toggle('active');
+};
 
-    function handleHeader() {
-    menu.style.right = "-100%"
-    hamburger.addEventListener("click", () => {
-        if (menu.style.right === "-100%") {
-            menu.style.right = "20px"
-        } else {
-            menu.style.right = "-100%"
-        }
-      })
+//klik diluar sidebar untuk menghilangkan nav
+const hamburger = document.querySelector('#hamburger-menu');
+
+document.addEventListener('click', function(e){
+    if(!hamburger.contains(e.target) && !navbarNav.contains(e.target)){
+        navbarNav.classList.remove('active');
     }
-
-    handleHeader()
-    </script>
+});
+</script>
 </body>
 </html>
 <style>
   .footer {
   width: 100vw;
-  background-color: #092140;
+  background-color: #1e3a5d;
   color: white;
 }
 .map{

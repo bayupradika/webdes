@@ -1,4 +1,6 @@
-
+html{
+  overflow-x: hidden;
+}
 body{
   font-family: 'OpenSans',arial;
   margin: 0;
