@@ -4,8 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
   <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="assets/css/fontawesome-all.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-
   <script src="https://unpkg.com/feather-icons"></script>
   <title>Document</title>
   <style>
@@ -18,7 +19,6 @@
     text-decoration: none;
 }
 html{
-    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 /* navbar */
@@ -97,6 +97,7 @@ html{
 @media (max-width: 100vw) and (min-width: 769px) {
     html{
         font-size: 75%;
+        overflow-x: hidden;
     }
     #hamburger-menu{
         display: inline-block;
@@ -134,6 +135,7 @@ html{
 @media (max-width: 768px) and (min-width: 451px) {
     html{
         font-size: 62.5%;
+        overflow-x: hidden;
     }
     #hamburger-menu{
         display: inline-block;
@@ -170,6 +172,7 @@ html{
 @media (max-width: 450px) {
     html{
         font-size: 55%;
+        overflow-x: hidden;
     }
     #hamburger-menu{
         display: inline-block;
@@ -259,16 +262,7 @@ html{
               <li><a href="#">KONTAK</a></li>
         </ul>
         <div class="navbar-extra">
-            <input type="text" id="searchInput" placeholder="Cari...">
             <a href="#" id="searchList"><i data-feather="search"></i></a>
-            <ul id="searchList" style="display: none;">
-              <li>Apple</li>
-              <li>Orange</li>
-              <li>Banana</li>
-              <li>Grapes</li>
-              <li>Watermelon</li>
-              <li>Pineapple</li>
-            </ul>
             <a href="#hamburger-menu" id="hamburger-menu"><i data-feather="menu"></i></a>
         </div>
     </nav>

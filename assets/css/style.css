@@ -1,10 +1,8 @@
-html{
-  overflow-x: hidden;
-}
 body{
   font-family: 'OpenSans',arial;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 a{
   text-decoration: none;

@@ -1,7 +1,5 @@
-
 </div>
     </div>
-
     <!-- Footer -->
     <div class="footer">
       <div class="rowflex">
@@ -23,9 +21,30 @@
         <p>Copyright © 2023, <a href="instagram.com/muhammadravil2" style="color:#92cf48;"><b>KKN UIN Suska Riau X KKN Universitas Riau</b></a> </p>
       </div>
   </div>
-  </body>
-</html>
- 
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script>
+    feather.replace()
+</script>
+<script>
+// toggle class active
+const navbarNav = document.querySelector('.navbar-nav');
+// ketika hamburger menu di klik
+document.querySelector('#hamburger-menu').onclick = () => {
+    navbarNav.classList.toggle('active');
+};
+
+//klik diluar sidebar untuk menghilangkan nav
+const hamburger = document.querySelector('#hamburger-menu');
+
+document.addEventListener('click', function(e){
+    if(!hamburger.contains(e.target) && !navbarNav.contains(e.target)){
+        navbarNav.classList.remove('active');
+    }
+});
+</script>
+<script src="https://unpkg.com/feather-icons"></script>
+
 </body>
 </html>
 <style>

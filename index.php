@@ -13,7 +13,6 @@ require 'layout/header.php';
   <div class="inner">
     <h1>Desa Salo Timur</h1>
     <h3>Kecamatan Salo, Kabupaten Kampar</h3>
-
   </div>
 </div>
 <div class="container">
