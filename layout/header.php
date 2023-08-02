@@ -259,7 +259,16 @@ html{
               <li><a href="#">KONTAK</a></li>
         </ul>
         <div class="navbar-extra">
-            <a href="#" id="search"><i data-feather="search"></i></a>
+            <input type="text" id="searchInput" placeholder="Cari...">
+            <a href="#" id="searchList"><i data-feather="search"></i></a>
+            <ul id="searchList" style="display: none;">
+              <li>Apple</li>
+              <li>Orange</li>
+              <li>Banana</li>
+              <li>Grapes</li>
+              <li>Watermelon</li>
+              <li>Pineapple</li>
+            </ul>
             <a href="#hamburger-menu" id="hamburger-menu"><i data-feather="menu"></i></a>
         </div>
     </nav>

@@ -351,7 +351,6 @@ nav {
     -webkit-appearance: none;
 }
 .contactFrm input[type="submit"] {
-
     outline: none;
     color: #FFFFFF;
     padding: 0.5em 0;
@@ -375,4 +374,3 @@ nav {
 p.statusMsg{font-size:18px;}
 p.succdiv{color: #008000;}
 p.errordiv{color:#E80000;}
-

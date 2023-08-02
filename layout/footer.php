@@ -34,6 +34,41 @@ document.addEventListener('click', function(e){
     }
 });
 </script>
+<script src="https://unpkg.com/feather-icons"></script>
+<script>
+  feather.replace(); // Mengganti icon dengan Feather Icons
+
+  // Fungsi untuk menampilkan hasil pencarian
+  function searchItems() {
+    var input = document.getElementById('searchInput').value.toLowerCase();
+    var list = document.getElementById('searchList');
+    var items = list.getElementsByTagName('li');
+
+    for (var i = 0; i < items.length; i++) {
+      var itemText = items[i].innerText.toLowerCase();
+      if (itemText.includes(input)) {
+        items[i].style.display = 'block';
+      } else {
+        items[i].style.display = 'none';
+        alert ('Data Tidak Ditemukan');
+      }
+    }
+  }
+
+  // Mendapatkan elemen tombol search
+  var searchButton = document.getElementById('searchButton');
+
+  // Menambahkan event listener untuk mencari saat tombol search diklik
+  searchButton.addEventListener('click', function() {
+    searchItems();
+  });
+
+  // Menambahkan event listener untuk mencari saat input search berubah
+  document.getElementById('searchInput').addEventListener('keyup', function() {
+    searchItems();
+  });
+</script>
+
 </body>
 </html>
 <style>
