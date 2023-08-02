@@ -14,7 +14,7 @@
     .navbar {
       width: 100vw;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
         background-color: #1e3a5d; /* Dark Blue color */
       }
@@ -187,3 +187,20 @@
       </div>
       </nav>
     </header>
+    <script>
+    const hamburger = document.getElementsByClassName("hamburger")[0]
+    const menu = document.getElementsByClassName("navbar")[0]
+
+    function handleHeader() {
+    menu.style.right = "-100%"
+    hamburger.addEventListener("click", () => {
+        if (menu.style.right === "-100%") {
+            menu.style.right = "20px"
+        } else {
+            menu.style.right = "-100%"
+        }
+      })
+    }
+
+    handleHeader()
+    </script>
