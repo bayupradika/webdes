@@ -21,16 +21,7 @@ p{
   width: 100vw;
   padding-bottom: 30px;
 }
-.jumbotron {
-  box-sizing: border-box;
-  background: url('../images/bg.jpg');
-  background-position: center;
-  background-size: cover;
-  margin-bottom: 20px;
-  left: 0;
-  right: 0;
-  height: 500px;
-}
+
 .jumbotron .inner h1,h3{
   margin: 0;
 }

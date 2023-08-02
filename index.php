@@ -2,8 +2,14 @@
 require 'layout/header.php';
 ?>
 
-<div class="jumbotron">
-  <img src="bg.jpg" alt="">
+<div class="jumbotron" style="  box-sizing: border-box;
+  background-position: center;
+  background:url(assets/images/bg.jpg);
+  background-size: cover;
+  margin-bottom: 20px;
+  left: 0;
+  right: 0;
+  height: 500px;">
   <div class="inner">
     <h1>Desa Salo Timur</h1>
     <h3>Kecamatan Salo, Kabupaten Kampar</h3>
