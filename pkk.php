@@ -13,7 +13,7 @@ include 'layout/header.php';
   <div class="content">
     <div class="berita">
       <div class="judul_section">
-        <h1>PKK</h1>
+        <h1 style="text-align: center; padding-top:1rem;">PKK</h1>
         <hr> <br>
         <table class="table">
             <thead>

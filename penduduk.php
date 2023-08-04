@@ -13,7 +13,7 @@ require 'layout/header.php';
   <div class="content">
     <div class="berita">
       <div class="judul_section">
-        <h1>DATA PENDUDUK DESA SALO TIMUR</h1>
+        <h1 style="text-align: center; padding-top:1rem;">DATA PENDUDUK DESA SALO TIMUR</h1>
         <hr>
       </div>
       </div>

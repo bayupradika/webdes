@@ -18,8 +18,8 @@
     border: none;
     text-decoration: none;
 }
-html{
-    overflow-x: hidden;
+body{
+  overflow-x: hidden;
 }
 /* navbar */
 .navbar{
@@ -35,6 +35,7 @@ html{
 
 .navbar .navbar-logo img{
   width: 100px;
+  display: block;
 }
 
 .navbar .navbar-nav a{
@@ -93,11 +94,182 @@ html{
     text-decoration: none;
     display: block;
 }
+/* Footer */
+.footer{
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #092140;
+  flex-direction: column;
+}
+.footer h1{
+  margin: 0;
+  color: white;
+}
+.rowflex{
+  padding: 10px 0;
+  width: 100%;
+}
+.peta{
+  float: left;
+  box-sizing: border-box;
+  border-right: 2px solid #024959;
+  text-align: center;
+  height: 210px;
+  width: 50%;
+}
+.peta iframe{
+  margin: 10px;
+}
+.kutipan{
+  padding: 0 20px;
+  color: white;
+  float: left;
+  box-sizing: border-box;
+  border-left: 2px solid #024959;
+  text-align: left;
+  height: 208px;
+  width: 50%;
+  text-align: center;
+}
+
+.kutipan p{
+  font-size: 1;
+  margin: 0;
+}
+.copyright-section{
+  text-align: center;
+  color: white;
+  background-color: #024959;
+  height: 50px;
+  flex: 1;
+}
+      /* Custom styles */
+/* Adjust the width of the container on small screens */
+.container {
+  max-width: 100%;
+}
+
+.jumbotron::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(1,1,3,1) 8%, rgba(255,255,255,0)50%);
+}
+
+/* Stack the columns vertically on small screens */
+.judul_section .row {
+  flex-direction: column;
+}
+
+/* Remove padding on small screens */
+.judul_section .col-sm-9 {
+  padding: 0;
+}
+
+/* Add padding to the paragraph on small screens */
+.judul_section p {
+  padding: 10px;
+}
+
+/* Add a bit of space between the columns on small screens */
+.judul_section .col-sm-9, .judul_section .col-3 {
+  margin-bottom: 10px;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .jumbotron h1 {
+    font-size: 48px;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .judul_section .row {
+    flex-direction: row;
+  }
+}
+ /* Media query untuk tampilan seluler */
+ @media screen and (max-width: 768px) {
+      .footer {
+        text-align: center;
+      }
+
+      .rowflex {
+        flex-direction: column;
+      }
+
+      .footer h1 {
+        font-size: 18px;
+      }
+
+      .footer p {
+        font-size: 12px;
+      }
+
+      .peta {
+        float: none;
+        border-right: none;
+        width: 100%;
+        height: auto;
+      }
+
+      .kutipan {
+        float: none;
+        border-left: none;
+        width: 100%;
+        height: auto;
+      }
+    }
+/* Mobile */
+@media (max-width: 450px) {
+    html{
+        font-size: 55%;
+    }
+    body{
+      overflow-x: hidden;
+    }
+    #hamburger-menu{
+        display: inline-block;
+    }
+    .navbar .navbar-nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 20rem;
+        height: 100vh;
+        transition: 0.3s;
+    }
+    .navbar .navbar-nav.active{
+        right: 0;
+        background-color: #1e3a5d;
+    }
+    .navbar .navbar-nav a{
+        color: white;
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .navbar .navbar-nav a::after{
+        transform-origin: 0 0;
+    }
+    .navbar .navbar-nav a:hover::after{
+        transform:scaleX(0.2s);
+    }
+}
 /* Desktop */
 @media (max-width: 100vw) and (min-width: 769px) {
     html{
         font-size: 75%;
-        overflow-x: hidden;
+    }
+    body{
+      overflow-x: hidden;
     }
     #hamburger-menu{
         display: inline-block;
@@ -135,7 +307,9 @@ html{
 @media (max-width: 768px) and (min-width: 451px) {
     html{
         font-size: 62.5%;
-        overflow-x: hidden;
+    }
+    body{
+      overflow-x: hidden;
     }
     #hamburger-menu{
         display: inline-block;
@@ -168,50 +342,13 @@ html{
         transform:scaleX(0.2s);
     }
   }
-  /* Mobile */
-@media (max-width: 450px) {
-    html{
-        font-size: 55%;
-        overflow-x: hidden;
-    }
-    #hamburger-menu{
-        display: inline-block;
-    }
-    .navbar .navbar-nav{
-        position: absolute;
-        top: 100%;
-        right: -100%;
-        width: 20rem;
-        height: 100vh;
-        transition: 0.3s;
-    }
-    .navbar .navbar-nav.active{
-        right: 0;
-        background-color: #1e3a5d;
-    }
-    .navbar .navbar-nav a{
-        color: white;
-        display: block;
-        margin: 10px;
-        padding: 10px;
-        font-size: 1rem;
-        font-weight: bold;
-    }
-    .navbar .navbar-nav a::after{
-        transform-origin: 0 0;
-    }
-    .navbar .navbar-nav a:hover::after{
-        transform:scaleX(0.2s);
-    }
-}
-  </style>
+ </style>
 </head>
 <body>
       <!-- Navbar -->
       <nav class="navbar">
         <div>
-          <a class="navbar-logo"><img src="bgg.png" alt="">
-            </a>
+        <img src="../assets/images/bgg.png"></img>
         </div>
         <ul class="navbar-nav">
             <li><a href="index.php">BERANDA</a></li>
@@ -259,7 +396,7 @@ html{
                   <a href="visimisi.php">Visi & Misi</a>
                 </div>
               </li>
-              <li><a href="#">KONTAK</a></li>
+              <li><a href="#foo t">KONTAK</a></li>
         </ul>
         <div class="navbar-extra">
             <a href="#" id="searchList"><i data-feather="search"></i></a>

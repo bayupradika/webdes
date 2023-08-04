@@ -13,7 +13,7 @@ include 'layout/header.php';
   <div class="content">
     <div class="berita">
       <div class="judul_section">
-        <h1>LPM</h1>
+        <h1 style="text-align: center; padding-top:1rem;">LPM</h1>
         <hr>
         <h2>NAMA-NAMA ANGGOTA LEMBAGA PEMBERDAYAAN MASYARAKAT (LPM) PERIODE 2020-2025</h2><br>
         <div class="table-responsive">
