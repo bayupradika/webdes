@@ -34,8 +34,7 @@ body{
 }
 
 .navbar .navbar-logo img{
-  width: 100px;
-  display: block;
+  width: 100%;
 }
 
 .navbar .navbar-nav a{
@@ -245,6 +244,7 @@ body{
         transition: 0.3s;
     }
     .navbar .navbar-nav.active{
+        z-index: 9999;
         right: 0;
         background-color: #1e3a5d;
     }
@@ -285,6 +285,7 @@ body{
         font-weight: bold;
     }
     .navbar .navbar-nav.active{
+        z-index: 9999;
         right: 0;
         background-color: #1e3a5d;
     }
@@ -324,6 +325,7 @@ body{
         transition: 0.3s;
     }
     .navbar .navbar-nav.active{
+        z-index: 9999;
         right: 0;
         background-color: #1e3a5d;
     }
@@ -347,8 +349,7 @@ body{
 <body>
       <!-- Navbar -->
       <nav class="navbar">
-        <div>
-        <img src="../assets/images/bgg.png"></img>
+        <div class="navbar-logo" style="background: url(/assets/images/bgg.png); z-index: 9999;">
         </div>
         <ul class="navbar-nav">
             <li><a href="index.php">BERANDA</a></li>
