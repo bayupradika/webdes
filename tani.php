@@ -13,7 +13,7 @@ include 'layout/header.php';
   <div class="content">
     <div class="berita">
       <div class="judul_section">
-        <h1>KELOMPOK TANI</h1>
+        <h1 style="text-align: center; padding-top:1rem;">KELOMPOK TANI</h1>
         <hr>
         <h2>NAMA-NAMA KELOMPOK TANI DESA SALO TIMUR</h2><br>
     <table class="table">

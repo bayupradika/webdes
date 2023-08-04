@@ -13,7 +13,7 @@ include 'layout/header.php';
   <div class="content">
     <div class="berita">
       <div class="judul_section">
-        <h1>Struktur Perangkat Desa</h1>
+        <h1 style="text-align: center; padding-top:1rem;">Struktur Perangkat Desa</h1>
         <hr>
         <h2>SUSUNAN ORGANISASI<br>PEMERINTAHAN DESA SALO TIMUR <br> KECAMATAN SALO KABUPATEN KAMPAR</h2><br>
     <table class="table">

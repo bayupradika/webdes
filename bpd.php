@@ -6,14 +6,14 @@ require 'layout/header.php';
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>BPD</title>
 </head>
 <body>
 <div class="container">
   <div class="content">
     <div class="berita">
       <div class="judul_section">
-        <h1>BPD</h1>
+        <h1 style="text-align: center; padding-top:1rem;">BPD</h1>
         <hr>
         <h2>NAMA-NAMA ANGGOTA BADAN PERMUSYAWARATAN DESA (BPD) PERIODE 2020-2025</h2><br>
     <table class="table">
