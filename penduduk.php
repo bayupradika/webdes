@@ -689,7 +689,7 @@ require 'layout/header.php';
             <td><strong>625 orang</strong></td>
         </tr>
     </tbody>
-</table>
+</table> <br>
 </body>
 </html>
 
