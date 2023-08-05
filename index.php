@@ -11,9 +11,6 @@ require 'layout/header.php';
   background-size: cover;
   background-repeat:no-repeat;
   min-height: 100vh;">
-  <div class="inner">
-    <h1>Desa Salo Timur</h1>
-    <h3>Kecamatan Salo, Kabupaten Kampar</h3>
-  </div>
+    <h1>Desa Salo Timur <br> Kecamatan Salo <br> Kabupaten Kampar</h1>
 </div>
     <?php require 'layout/footer.php'; ?>  

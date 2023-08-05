@@ -18,7 +18,7 @@
     border: none;
     text-decoration: none;
 }
-body{
+html{
   overflow-x: hidden;
 }
 /* navbar */
@@ -119,7 +119,7 @@ body{
   width: 50%;
 }
 .peta iframe{
-  margin: 10px;
+  margin-top: 10px;
 }
 .kutipan{
   padding: 0 20px;
@@ -179,51 +179,7 @@ body{
 .judul_section .col-sm-9, .judul_section .col-3 {
   margin-bottom: 10px;
 }
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-  .jumbotron h1 {
-    font-size: 48px;
-  }
-}
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-  .judul_section .row {
-    flex-direction: row;
-  }
-}
- /* Media query untuk tampilan seluler */
- @media screen and (max-width: 768px) {
-      .footer {
-        text-align: center;
-      }
-
-      .rowflex {
-        flex-direction: column;
-      }
-
-      .footer h1 {
-        font-size: 18px;
-      }
-
-      .footer p {
-        font-size: 12px;
-      }
-
-      .peta {
-        float: none;
-        border-right: none;
-        width: 100%;
-        height: auto;
-      }
-
-      .kutipan {
-        float: none;
-        border-left: none;
-        width: 100%;
-        height: auto;
-      }
-    }
 /* Mobile */
 @media (max-width: 450px) {
     html{
@@ -262,6 +218,35 @@ body{
     .navbar .navbar-nav a:hover::after{
         transform:scaleX(0.2s);
     }
+    .footer {
+        text-align: center;
+      }
+
+      .rowflex {
+        flex-direction: column;
+      }
+
+      .footer h1 {
+        font-size: 18px;
+      }
+
+      .footer p {
+        font-size: 12px;
+      }
+
+      .peta {
+        float: none;
+        border-right: none;
+        width: 100%;
+        height: auto;
+      }
+
+      .kutipan {
+        float: none;
+        border-left: none;
+        width: 100%;
+        height: auto;
+      }
 }
 /* Desktop */
 @media (max-width: 100vw) and (min-width: 769px) {
@@ -302,7 +287,9 @@ body{
     .navbar .navbar-nav a:hover::after{
         transform:scaleX(0.2s);
     }
-
+    .judul_section .row {
+    flex-direction: row;
+  }
 }
 /* Tablet */
 @media (max-width: 768px) and (min-width: 451px) {
@@ -343,13 +330,43 @@ body{
     .navbar .navbar-nav a:hover::after{
         transform:scaleX(0.2s);
     }
+    .footer {
+        text-align: center;
+      }
+
+      .rowflex {
+        flex-direction: column;
+      }
+
+      .footer h1 {
+        font-size: 18px;
+      }
+
+      .footer p {
+        font-size: 12px;
+      }
+
+      .peta {
+        float: none;
+        border-right: none;
+        width: 100%;
+        height: auto;
+      }
+
+      .kutipan {
+        float: none;
+        border-left: none;
+        width: 100%;
+        height: auto;
+      }
   }
  </style>
 </head>
 <body>
       <!-- Navbar -->
       <nav class="navbar">
-        <div class="navbar-logo" style="background: url(/assets/images/bgg.png); z-index: 9999;">
+        <div class="navbar-logo">
+          <img src="./bgg.png" alt="logo">
         </div>
         <ul class="navbar-nav">
             <li><a href="index.php">BERANDA</a></li>
