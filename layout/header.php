@@ -47,42 +47,7 @@ html{
   box-sizing: border-box;
   height: 90px;
 }
-.nav-menu {
-  flex: 4;
-  height: 100%;
-}
-.nav-menu ul {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: nowrap;
-  margin: 0;
-  padding: 0;
-}
-.nav-menu ul li {
-  text-align: center;
-  width: 90px;
-  display: block;
-  background: inherit;
-  margin: auto 0;
-  line-height: 90px;
-  font-family: 'Rajdhani',sans-serif;
-}
-.nav-menu ul li a {
-  height: 90px;
-  background: #024959;
-  display: inline-block;
-  color: #ffe;
-  padding: 0 5px;
-  width: 100%;
-  box-sizing: border-box;
-}
-.nav-menu ul li a:hover {
-  background: #092140;
-  border-bottom: 5px solid #92cf48;
-}
-.nav-menu ul li a:active {
-  background: #92cf48;
-}
+
 .nav-sisa{
   flex: 1;
   position: relative;
@@ -258,12 +223,6 @@ html{
   /* width: 300px; */
   height: 100%;
 }
-.img{
-  margin: 5px;
-  margin-right: 0px;
-  max-width: 240px;
-  height: 100%;
-}
 /* Lihat Artikel */
 .artikel-section{
   margin: 10px 0;
@@ -287,53 +246,7 @@ html{
     margin: auto;
     background: #fff;
 }
-.contactFrm h4 {
-    font-size: 1em;
-    color: #252525;
-    margin-bottom: 0.5em;
-    font-weight: 300;
-    letter-spacing: 5px;
-}
-.contactFrm input[type="text"], .contactFrm input[type="email"] {
-    width: 70%;
-    outline: none;
-    font-size: 0.9em;
-    padding: .7em 1em;
-    border: 1px solid #000;
-    -webkit-appearance: none;
-    display: block;
-    margin-bottom: 1.2em;
-}
-.contactFrm textarea {
-    resize: none;
-    width: 93.5%;
-    font-size: 0.9em;
-    outline: none;
-    padding: .6em 1em;
-    border: 1px solid #000;
-    min-height: 10em;
-    -webkit-appearance: none;
-}
-.contactFrm input[type="submit"] {
-    outline: none;
-    color: #FFFFFF;
-    padding: 0.5em 0;
-    font-size: 1em;
-    margin: 1em 0 0 0;
-    -webkit-appearance: none;
-    background: #024959;
-    transition: 0.5s all;
-    border: 2px solid #024959;
-    -webkit-transition: 0.5s all;
-    transition: 0.5s all;
-    -moz-transition: 0.5s all;
-    width: 47%;
-    cursor: pointer;
-}
-.contactFrm input[type="submit"]:hover {
-    background: none;
-    color: #024959;
-}
+
 /* #024959 */
 p.statusMsg{font-size:18px;}
 p.succdiv{color: #008000;}
@@ -455,28 +368,20 @@ p.errordiv{color:#E80000;}
   max-width: 100%;
 }
 .logo{
-  width: 100px;
-  height: auto;
+  width: 200px;
 }
-.jumbotron{
-  position:relative;
-  display:flex;
-  align-items:center;
-  background-position: center;
-  background:url(assets/images/bg1.jpg);
+.hero{
+  background: url(bg.jpg);
   background-size: cover;
-  background-repeat:no-repeat;
-  min-height: 100vh;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
-.jumbotron::after{
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 25%;
-    bottom: 0;
-    background: linear-gradient(0deg, rgba(1,1,3,1) 8%, rgba(255,255,255,0)50%);
-}
+
 
 /* Stack the columns vertically on small screens */
 .judul_section .row {
@@ -538,7 +443,37 @@ p.errordiv{color:#E80000;}
     }
     .judul_section .row {
     flex-direction: row;
-  }
+    }
+    .hero .konten1{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero .konten1 img{
+      max-width: 50%;
+      height: auto;
+      padding: 20px;
+      background: linear-gradient(0deg, rgba(1,1,3,1) 8%, rgba(255,255,255,0)50%);
+    }
+    .hero .konten2 img{
+      max-width: 50%;
+      height: auto;
+      padding: 20px;
+    }
+    /* .hero .konten1 h2{
+      text-align: center;
+    }
+    .hero .konten1 h3{
+      text-align: center;
+    } */
+
+    .hero .konten2{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
 }
 /* Mobile */
 @media (max-width: 450px) {
@@ -607,6 +542,29 @@ p.errordiv{color:#E80000;}
         width: 100%;
         height: auto;
       }
+      .hero .konten1{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero .konten1 img{
+      max-width: 85%;
+      height: auto;
+      padding: 10px;
+    }
+
+    .hero .konten2{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero .konten2 img{
+      max-width: 85%;
+      height: auto;
+      padding: 10px;
+    }
 }
 /* Tablet */
 @media (max-width: 768px) and (min-width: 451px) {
@@ -675,13 +633,36 @@ p.errordiv{color:#E80000;}
         width: 100%;
         height: auto;
       }
+      .hero .konten1{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero .konten1 img{
+      max-width: 70%;
+      height: auto;
+      padding: 15px;
+    }
+
+    .hero .konten2{
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .hero .konten2 img{
+      max-width: 70%;
+      height: auto;
+      padding: 15px;
+    }
   }
  </style>
 </head>
 <body>
       <!-- Navbar -->
       <nav class="navbar">
-        <a href="index.php" class="logo"><img src="logo.jpg" alt="logo"></a>
+        <h2 style="color: #fff; line-height: 3rem; margin-bottom: 0;">SALO TIMUR</h2>
         <ul class="navbar-nav">
             <li><a href="index.php">BERANDA</a></li>
             <li class="dropdown"><a href="#about">KELEMBAGAAN</a>
@@ -728,7 +709,7 @@ p.errordiv{color:#E80000;}
                   <a href="visimisi.php">Visi & Misi</a>
                 </div>
               </li>
-              <li><a href="#foo t">KONTAK</a></li>
+              <li><a href="#foot">KONTAK</a></li>
         </ul>
         <div class="navbar-extra">
             <a href="#" id="searchList"><i data-feather="search"></i></a>
