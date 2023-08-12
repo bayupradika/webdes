@@ -22,9 +22,8 @@ try
     $num_rows = $query->rowCount();
     if ($num_rows > 0) {
       session_start();
-
-      $_SESSION['nama_admin'] = $data['nama_admin'];
-      $_SESSION['id_admin'] = $data['id_admin'];
+      $_SESSION['user_admin'] = $data['user_admin'];
+      $_SESSION['pass_admin'] = $data['pass_admin'];
       $_SESSION['login']  = true;
       header('location:index.php');
     }else {

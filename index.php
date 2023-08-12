@@ -6,9 +6,9 @@ require 'layout/header.php';
     <div class="carousel-item active">
       <img src="assets/images/slide1.jpg" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item">
+    <!-- <div class="carousel-item">
       <img src="assets/images/profile.jpg" class="d-block w-100" alt="...">
-    </div>
+    </div> -->
     <div class="carousel-item">
       <img src="assets/images/bg1.jpg" class="d-block w-100" alt="...">
     </div>
@@ -30,6 +30,13 @@ require 'layout/header.php';
       <img src="./kades.png" alt="">
       <h2>H. TUKIRAN</h2>
       <h4>Kepala Desa Salo Timur</h4>
+      <div class="linked">
+        <ul>Link Download
+          <li><a href="FILEDOWNLOAD/sktm.php">surat keterangan tidak mampu</a></li>
+          <li><a href="FILEDOWNLOAD/sp.php">surat penghasilan tetap</a></li>
+          <li><a href="FILEDOWNLOAD/st_ortu.php">surat tanggungan orang tua</a></li>
+        </ul>
+      </div>
     </div>
   </div>
   <div class="agenda col-8">

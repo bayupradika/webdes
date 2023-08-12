@@ -352,7 +352,7 @@
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: #1e3a5d;
+      background-color: #092140;
       /* Dark Blue color */
       min-width: 200px;
       box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -660,18 +660,23 @@
         justify-content: center;
         width: 50%;
       }
+      .linked{
+        border: 1px solid black;
+        padding: 10px;
+        width: 100%;
+      }
     }
 
     /* Mobile */
     @media (max-width: 450px) {
       html {
         font-size: 55%;
-        height: 3000px;
+        height: auto;
       }
 
       body {
         overflow-x: hidden;
-        height: 100%;
+        height: auto;
       }
 
       #hamburger-menu {
@@ -1059,6 +1064,14 @@
           <a href="profil.php">Profil Desa</a>
           <a href="perangkat.php">Perangkat Desa</a>
           <a href="visimisi.php">Visi & Misi</a>
+        </div>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">FILE DOWNLOAD</a>
+        <div class="dropdown-content">
+          <a href="FILEDOWNLOAD/sktm.php">SKTM</a>
+          <a href="FILEDOWNLOAD/sp.php">Surat Penghasilan Tetap</a>
+          <a href="FILEDOWNLOAD/st_ortu.php">Surat Tanggungan Orang Tua</a>
         </div>
       </li>
       <li><a href="#foot">KONTAK</a></li>
