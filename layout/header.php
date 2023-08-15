@@ -434,9 +434,6 @@
       max-width: 100%;
     }
 
-    .logo {
-      width: 200px;
-    }
 
     .hero {
       background: url(bg.jpg);
@@ -1018,7 +1015,7 @@
 <body>
   <!-- Navbar -->
   <nav class="navbar">
-    <h2 style="color: #fff; line-height: 3rem; margin-bottom: 0;">SALO TIMUR</h2>
+    <img src="./kampar.jpg" width="180px" alt="">
     <ul class="navbar-nav">
       <li><a href="index.php">BERANDA</a></li>
       <li class="dropdown">

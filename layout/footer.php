@@ -18,7 +18,7 @@
         <div class="clear"></div>
       </div>
       <div class="copyright-section">
-        <p>Copyright © 2023, <a href="instagram.com/muhammadravil2" style="color:#92cf48;"><b>KKN UIN Suska Riau X KKN Universitas Riau</b></a> </p>
+        <p>Copyright © 2023, <b href="https://bayupradika09.site/" style="color:#92cf48;">UNIVERSITAS RIAU</b> X <b href="instagram.com/muhammadravil2" style="color:#92cf48;">UIN SUSKA RIAU</b> </p>
       </div>
   </div>
   <!-- script -->

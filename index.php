@@ -9,9 +9,6 @@ require 'layout/header.php';
     <!-- <div class="carousel-item">
       <img src="assets/images/profile.jpg" class="d-block w-100" alt="...">
     </div> -->
-    <div class="carousel-item">
-      <img src="assets/images/bg1.jpg" class="d-block w-100" alt="...">
-    </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
