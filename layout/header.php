@@ -1041,16 +1041,7 @@
           <a href="dpt.php">Data DPT</a>
         </div>
       </li>
-      <li class="dropdown">
-        <a href="#" class="dropbtn">POTENSI</a>
-        <div class="dropdown-content">
-          <a href="#">Potensi1</a>
-          <a href="#">Potensi2</a>
-          <a href="#">Potensi3</a>
-          <a href="#">Potensi4</a>
-          <a href="#">Potensi5</a>
-        </div>
-      </li>
+      <li><a href="potensi.php">POTENSI DESA</a></li>
       <li class="dropdown">
         <a href="#" class="dropbtn">GALERI</a>
         <div class="dropdown-content">
@@ -1063,6 +1054,7 @@
         <div class="dropdown-content">
           <a href="profil.php">Profil Desa</a>
           <a href="perangkat.php">Perangkat Desa</a>
+          <a href="sejarah.php">Sejarah</a>
           <a href="visimisi.php">Visi & Misi</a>
         </div>
       </li>

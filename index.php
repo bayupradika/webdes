@@ -43,13 +43,31 @@ require 'layout/header.php';
     <div class="container">
       <h1>BERITA</h1>
       <hr>
-      <h2>HUT RI KE-n</h2>
-      <h6>Merayakan HUT RI KE-n di Desa Salo Timur <span>17-agustus-2023</span></h6><br>
-      <img src="./bg1.jpg" alt="" style="width: 50%;">
+      <h2>Prakata</h2>
+      <h6>Pemerintah Desa Salo Timur<span> 15-agustus-2023</span></h6><br>
+      <img src="./konten.png" alt="" style="width: 50%;">
       <br><br>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora quam esse, ut velit harum et nam cumque maiores autem sunt labore expedita blanditiis, veniam, optio praesentium mollitia magnam doloribus. Non cupiditate dolor quasi quis optio dolores, ducimus placeat laborum quo veniam ipsa fugiat ipsam nisi aspernatur voluptas accusamus suscipit architecto nemo a at quod! Necessitatibus dolore ab facilis corrupti impedit totam iusto at vel laboriosam, error odio cupiditate quis illo veritatis repudiandae quam molestiae expedita alias. Qui sunt sint recusandae perspiciatis, dolore aliquid magnam corrupti accusamus neque eum libero tempora reprehenderit aut totam optio. Cum porro exercitationem repellat magni deleniti.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aliquam asperiores amet suscipit aut sequi reiciendis nemo modi cum, quod sapiente ipsa quisquam fugiat sed aliquid omnis hic harum natus nostrum iure reprehenderit dolores consequuntur sunt voluptate. Vero maiores debitis consequatur nisi alias consectetur vitae, delectus perspiciatis consequuntur eum accusantium eveniet molestias tempora nobis? Deserunt 
-      </p>
+      <p>Assalamualaikum Warahmatullahi Wabarakatuh. <br> 
+        Salam sejahtera untuk kita semua. Dengan mengucap puji syukur kehadiran
+        Tuhan Yang Maha Esa, atas rahmat dan Karunia-Nya sehingga Buku Profil
+        Desa Salo Timur, Kecamatan Salo, Kabupaten Kampar ini dapat diselesaikan
+        dengan baik. <br>
+        Sajian data dalam Buku Profil Desa ini mengacu pada Undang-Undang
+        Nomor 6 Tahun 2014 tentang desa, dalam hal penyajian informasi secara
+        terbuka dan sistematis tentang gambaran umum karakter desa yang meliputi
+        sejarah desa, data populasi desa, peta desa, struktur pemerintahan desa,
+        lembaga-lembaga desa, organisasi kemasyarakatan dan potensi desa.
+        Secara khusus Buku Profil Desa adalah kumpulan data tentang gambaran
+        desa yang diperlukan untuk perbandingan atau referensi yang valid dan
+        mudah dimengerti. Tujuannya agar dapat memberikan manfaat terhadap
+        semua pihak dalam upaya mendapatkan informasi mengenai Desa Salo
+        Timur. <br>
+        Demikian kami ucapkan terima kasih atas bantuan berbagai pihak yang
+        terkait; Ibu Resdati S.Sos.,M.Si selaku Dosen Pembimbing Lapangan beserta
+        Mahasiswa Kukerta Integrasi Universitas Riau Desa Salo Timur 2023, aparat
+        dan masyarakat Desa Salo Timur, serta pihak lainnya yang telah membantu
+        dalam penyusunan Buku Profil Desa ini.
+        Wassalamualaikum Warahmatullahi Wabarakatuh.</p>
     </div>
   </div>
 </div>
