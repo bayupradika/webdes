@@ -1066,6 +1066,7 @@
       <li><a href="#foot">KONTAK</a></li>
     </ul>
     <div class="navbar-extra">
+      <a href="masuk.php" style="font-weight: bold;">LOG IN AS ADMIN</a>
       <a href="#" id="searchList"><i data-feather="search"></i></a>
       <a href="#hamburger-menu" id="hamburger-menu"><i data-feather="menu"></i></a>
     </div>
